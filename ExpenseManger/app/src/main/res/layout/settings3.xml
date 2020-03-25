@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.jjikmeok.SubActivity_05">
+
+    <RelativeLayout
+        android:id="@+id/barview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        >
+        <com.github.mikephil.charting.charts.BarChart
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:id="@+id/bargraph">
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/totalmnthincome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        >
+        <TextView
+            android:id="@+id/headingmonthi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:text="Income This Month: " />
+        <TextView
+            android:id="@+id/totalmonthincome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/totalmnth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        >
+        <TextView
+            android:id="@+id/headingmonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:text="Expense This Month: " />
+        <TextView
+            android:id="@+id/totalmonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/totalbalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        >
+        <TextView
+            android:id="@+id/headingmonthii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="#802b00"
+            android:text="Remaining This Month: " />
+        <TextView
+            android:id="@+id/totalmonthremain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="#802b00"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/totalviewi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460dp"
+        >
+        <TextView
+            android:id="@+id/headingi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:text="Grand Total (Income): " />
+        <TextView
+            android:id="@+id/totalincome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/totalview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485dp"
+        >
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:text="Grand Total (Expense): " />
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/totalmnthincomeiii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="510dp"
+        >
+        <TextView
+            android:id="@+id/headingmonthiii"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="#802b00"
+            android:text="Remaining Total: " />
+        <TextView
+            android:id="@+id/totalremain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="0dp"
+            android:textSize="18dp"
+            android:textColor="#802b00"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

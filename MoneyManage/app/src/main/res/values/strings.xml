@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Money Manage</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="add_expense">ADD Expense</string>
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Education</item>
+        <item>Medical</item>
+        <item>Rent</item>
+        <item>Travel</item>
+        <item>Groceries</item>
+        <item>Shopping</item>
+        <item>Entertainment</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="payment">
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>bKash</item>
+        <item>Credit Card</item>
+    </string-array>
+</resources>

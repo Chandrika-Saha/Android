@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <EditText
+            android:id="@+id/nm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/ds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+
+        <EditText
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Twitter Url" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+
+        <EditText
+            android:id="@+id/wb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Web Url" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp">
+        <EditText
+            android:id="@+id/con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number with area code"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
+        <Button
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/pro"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Update to Firebase"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Sign Out"
+            android:id="@+id/out"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

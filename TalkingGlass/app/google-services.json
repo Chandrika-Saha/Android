@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481840674537",
+    "firebase_url": "https://talkingglass-6398c.firebaseio.com",
+    "project_id": "talkingglass-6398c",
+    "storage_bucket": "talkingglass-6398c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481840674537:android:2742d5cc0436ac77",
+        "android_client_info": {
+          "package_name": "com.example.foodandflower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481840674537-8btjk1585m9152404u9n54hrigkrr7m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodandflower",
+            "certificate_hash": "66457fd0bcc4ce7259ae82f7d74e6782be3bb7eb"
+          }
+        },
+        {
+          "client_id": "481840674537-f97qh7uqsjrs8d9hpqnd9ttufgl642ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuGZCSdG4Ye_xl3-QeLS7bXNrD_8T6090"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481840674537-f97qh7uqsjrs8d9hpqnd9ttufgl642ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

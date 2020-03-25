@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "711695714220",
+    "firebase_url": "https://legendstale-bfc7e.firebaseio.com",
+    "project_id": "legendstale-bfc7e",
+    "storage_bucket": "legendstale-bfc7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711695714220:android:6430861e98e68396",
+        "android_client_info": {
+          "package_name": "com.example.legendstale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711695714220-p9f35hkse7j3r5u5pl5u31ig4vtjkr6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.legendstale",
+            "certificate_hash": "66457fd0bcc4ce7259ae82f7d74e6782be3bb7eb"
+          }
+        },
+        {
+          "client_id": "711695714220-83ariaf9k9lnc0mk3neu9mq6bvhv5n0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv-VXQDTCrN_PTGx-gH1mxmwnACdNUiyY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711695714220-83ariaf9k9lnc0mk3neu9mq6bvhv5n0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
